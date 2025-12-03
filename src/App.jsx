@@ -1,27 +1,20 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-// import HelloWorldComponent from './assets/hello-world/hello-world-component'
-
-// function App() {
-//   return (
-//     <HelloWorldComponent/>
-//   )
-// }
-
-// export default App
-
-// src/App.jsx
-
-import React from "react";
-import BannerComponent from "./assets/Banner/banner-component";
-
+import "./App.css";
+// import FlexBoxComponent from "./flex-box/flex-box-component";
+// import HelloWorldComponent from "./hello-world/hello-world-component";
+// import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+// import PostionComponent from "./positioning/position-component";
+// import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-execllence-component";
+import TrustedbyComponent from "./trusted-by/trusted-by-component";
 
 function App() {
   return (
     <div>
-      <BannerComponent />
+      {/* <HelloWorldComponent /> */}
+      {/* <FlexBoxComponent /> */}
+      {/* <LeadersTomorrowComponent /> */}
+      {/* <SymbolOfExcellenceComponent /> */}
+      {/* <PostionComponent /> */}
+      <TrustedbyComponent />
     </div>
   );
 }
