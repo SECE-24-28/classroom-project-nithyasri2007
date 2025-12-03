@@ -70,7 +70,6 @@ export const BannerStyle = styled.div`
     .banner {
       width: 95%;
       padding: 36px 14px;
-      border-radius: 60px; /* slightly less rounded on narrow screens */
       margin: 24px auto;
     }
 
